@@ -23,12 +23,13 @@ Each 1080p source was encoded once with ffmpeg into six H.264 qualities and one 
 - 4-second segments, with a keyframe at the start of every segment in **every** quality, so the player can switch quality mid-film without a jump.
 - `master.m3u8` lists the six qualities; the player picks one for the connection speed (Auto) or the one the viewer chooses.
 - The audio is a separate rendition shared by all qualities instead of being copied six times.
+- Each film folder also has `thumbnail.jpg` (a 1280×720 still, shown in the player before it starts); `caminandes-2/poster.jpg` is its portrait poster.
 
 ## Credits and licenses
 
 Both films are by the **Blender Foundation** and released under the [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) license, which allows sharing and adapting them with credit:
 
 - **Big Buck Bunny** © 2008 Blender Foundation | [peach.blender.org](https://peach.blender.org)
-- **Caminandes 2: Gran Dillama** © 2013 Blender Foundation | [caminandes.com](https://www.caminandes.com). `caminandes-2/poster.jpg` is a frame from the film.
+- **Caminandes 2: Gran Dillama** © 2013 Blender Foundation | [caminandes.com](https://www.caminandes.com).. `poster.jpg` and both `thumbnail.jpg` files are frames from the films.
 
 The films were re-encoded (changed in size and bitrate); nothing else was changed.
